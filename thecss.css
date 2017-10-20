@@ -1,0 +1,118 @@
+body
+{
+  background-color: black;
+  cursor:url('cursor.cur');
+}
+
+.lettertext
+{
+  display: none;
+  font-size: 150%;
+  color: white;
+  font-family: 'Agency FB', arial;
+  position: relative;
+}
+
+.instructtext
+{
+  font-size: 150%;
+  color: white;
+  font-family: 'Agency FB', arial;
+  position: relative;
+  text-align: center;
+}
+
+.instructbox
+{
+  display: none;
+  border-style: solid;
+  border-color: rgb(67,70,75);
+  position: fixed;
+  background: #002e63; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #888888, #202020); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #888878, #202020); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #888888, #202020); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #888888, #202020); /* Standard syntax (must be last) */
+  height: 400px;
+}
+
+.score
+{
+  display: none;
+  border-style: solid;
+  border-color: rgb(67,70,75);
+  position: fixed;
+  background: #002e63; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #888888, #202020); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #888878, #202020); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #888888, #202020); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #888888, #202020); /* Standard syntax (must be last) */
+  top:20px;
+  left: 20px;
+  height:70px;
+  width: 200px;
+}
+
+#killcount
+{
+  font-size: 130%;
+  color: white;
+  font-family: 'Agency FB', arial;
+  text-align: center;
+}
+
+.continue
+{
+  display: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2f4f4f;
+  background-color: #222222;
+  padding: 10px 36px;
+  color:white;
+  font-family: 'Agency FB', arial;
+  font-size:16px;
+  cursor: pointer;
+  box-shadow: 3px 3px #999;
+}
+
+.continue:hover
+{
+  background-color: white;
+  color: black;
+}
+
+.enemies
+{
+  position: fixed;
+  transform: scale(0.02,0.02);
+  transform-origin: 0% 0%;
+  padding: 100px;
+}
+
+.barricade
+{
+  display:none;
+}
+
+#health
+{
+  display: none;
+  border-style: solid;
+  border-color: rgb(67,70,75);
+  position: fixed;
+  background: #002e63; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #888888, #202020); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #888878, #202020); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #888888, #202020); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #888888, #202020); /* Standard syntax (must be last) */
+  top:20px;
+  left: 300px;
+}
+
+*::selection {
+    color:transparent;
+}
+*::-moz-selection {
+    color:transparent;
+}
